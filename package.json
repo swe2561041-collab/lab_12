@@ -1,0 +1,14 @@
+{
+  "name": "taxi-dispatch-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Taxi dispatch system - SAD236 Laborator 12 (architecture, components and CI)",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test test/"
+  }
+}
